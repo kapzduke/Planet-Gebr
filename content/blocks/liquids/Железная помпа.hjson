@@ -1,0 +1,24 @@
+{
+  "type": "Pump",
+  "name": "Железная помпа",
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 40,
+  "size": 2,
+  "squareSprite": false,
+  "consumes": {
+    "power": 1.6 
+  },
+  "pumpAmount": 0.25,
+  "category": "liquid",
+  "requirements": [
+    "Железо/40",
+  ]
+   research: {
+    parent: "Железная труба"
+},
+researchCost: [
+    "Железо/150"
+    "Алмаз/20"
+   ]
+}

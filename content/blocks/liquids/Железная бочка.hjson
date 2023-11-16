@@ -1,0 +1,21 @@
+{
+  "type": "LiquidRouter",
+  "name": "Железная бочка",
+  "localizedName": "Железная бочка",
+  "health": 750,
+  "size": 2,
+  "category": liquid,
+  "liquidCapacity": 500,
+  "placeableLiquid": true
+  "hasPower": false
+    "requirements": [
+    "Железо/60"
+   ]
+ research: {
+    parent: "Железная труба"
+},
+researchCost: [
+    "Железо/50"
+    "Дерево/100"
+   ]
+}

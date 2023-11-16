@@ -1,0 +1,22 @@
+{
+  "type": "conduit",
+  "name": "Железная труба",
+  "localizedName": "Железная труба",
+  "description": "Довольно быстрая труба",
+  "health": 200,
+  "liquidPressure": 2,
+  "requirements": [
+    "Железо/2"
+   ]
+researchCost: [
+    "Железо/50"
+   ]
+  "category": "liquid",
+  "research": "Деревянное ядро"
+   objectives: [
+        {
+            type: "OnSector",
+            preset: "Алмазная жила"
+        }
+    ]
+}

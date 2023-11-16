@@ -1,0 +1,16 @@
+{
+  "type": "LiquidJunction",
+  "name": "Железный жидкостный перекрёсток",
+  "localizedName": "Железный жидкостный перекрёсток",
+  "health": 200,
+  "hasPower": false,
+  "liquidPressure": 2,
+  "requirements": [
+    {
+      "item": "Железо",
+      "amount": 6
+    }
+  ],
+  "category": "liquid",
+  "research": "Железная труба"
+}

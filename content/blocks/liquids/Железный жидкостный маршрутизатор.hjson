@@ -1,0 +1,17 @@
+{
+  "type": "LiquidRouter",
+  "name": "Железный жидкостный маршрутизатор",
+  "localizedName": "Железный жидкостный маршрутизатор",
+  "health": 200,
+  "hasPower": false,
+  "placeableLiquid": true
+  "liquidPressure": 2,
+  "requirements": [
+    {
+      "item": "Железо",
+      "amount": 3
+    }
+  ],
+  "category": "liquid",
+  "research": "Железная труба"
+}

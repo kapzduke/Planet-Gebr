@@ -1,0 +1,17 @@
+{
+  "type": "LiquidBridge",
+  "name": "Железный жидкостный мостовой конвеер",
+  "localizedName": "Железный жидкостный мостовой конвеер",
+  "health": 200,
+  "hasPower": false,
+  "range": 5,
+  "liquidPressure": 2,
+  "requirements": [
+    {
+      "item": "Железо",
+      "amount": 4
+    }
+  ],
+  "category": "liquid",
+  "research": "Железная труба"
+}
