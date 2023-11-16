@@ -1,0 +1,21 @@
+type: PayloadConveyor
+localizedName: Железный конвеер для юнитов
+category: units
+size: 3
+health: 300
+
+moveTime: 60
+canOverdrive: false
+underBullets: true
+
+requirements: [
+    "Дерево/2"
+	"Железо/3"
+]
+
+research: {
+    parent: "Деревянное ядро"
+    requirements: [
+        "Железо/90"
+    ]
+}
