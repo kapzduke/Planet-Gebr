@@ -1,0 +1,16 @@
+{
+  "localizedName": "Два острова",
+  "captureWave": 30,
+  "difficulty": 4,
+  "alwaysUnlocked": false,
+  "addStartingItems": true,
+  "startWaveTimeMultiplier": 6,
+  "useAI": "false",
+  "showSectorLandInfo": false,
+  "planet": "Гебр",
+  "name": "Два острова",
+  "sector": 12,
+  "research": {
+    "parent": "Алмазная жила"
+}
+}

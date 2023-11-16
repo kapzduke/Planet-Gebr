@@ -1,0 +1,16 @@
+{
+  "localizedName": "Алмазная жила",
+  "captureWave": 20,
+  "difficulty": 2,
+  "alwaysUnlocked": false,
+  "addStartingItems": true,
+  "startWaveTimeMultiplier": 3,
+  "useAI": "false",
+  "showSectorLandInfo": false,
+  "planet": "Гебр",
+  "name": "Алмазная жила",
+  "sector": 8,
+  "research": {
+    "parent": "Замороженные моря"
+}
+}
