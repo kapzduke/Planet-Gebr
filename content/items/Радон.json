@@ -1,0 +1,14 @@
+{
+  "name": "Радон",
+  "explosiveness": 0.04,
+  "flammability": 0,
+  "radioactivity": 0.6,
+  "color": "1fff00ff",
+  "cost": 1.6,
+  "hiddenOnPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "hardness": 4,
+  "healthScaling": 0.9
+}

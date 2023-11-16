@@ -1,0 +1,13 @@
+{
+  "name": "Железо",
+  "explosiveness": 0,
+  "flammability": 0,
+  "radioactivity": 0,
+  "color": "706d6dff",
+  "cost": 1.2,
+  "hiddenOnPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "hardness": 2
+}

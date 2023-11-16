@@ -1,0 +1,16 @@
+{
+  "name": "Гипер сплав",
+  "description": "Создан из всех предметов в игре!",
+  "explosiveness": 0.2,
+  "flammability": 0.4,
+  "radioactivity": 0.2,
+  "charge": 0.5,
+  "cost": 4,
+  "frames": 6,
+  "frameTime": 3.7,
+  "hiddenOnPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "color": "6d665dff"
+}

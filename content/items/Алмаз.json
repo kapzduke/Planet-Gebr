@@ -1,0 +1,13 @@
+{
+  "name": "Алмаз",
+  "explosiveness": 0,
+  "flammability": 0,
+  "radioactivity": 0,
+  "color": "8dfeffff",
+  "cost": 1.7,
+  "hiddenOnPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "hardness": 3
+}
