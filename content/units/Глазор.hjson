@@ -1,0 +1,47 @@
+name: "Глазор"
+localizedName: "Глазор"
+description: "Этот юнит обычно используется как страж на секторах"
+speed: 0.76,
+health: 1800
+engineOffset: 6
+itemCapacity: 70
+flying: true
+hitSize: 4.3
+armor: 7
+weapons: [
+      {
+       name: glazor-weapon
+       reload: 75
+       top: false
+       shootSound: shootBig
+       y: 4
+       x: 6
+       shoot: {
+       type: ShootAlternate
+       shots: 4
+       shotDelay: 5.5
+       barrels: 2
+       spread: 3
+       }
+       bullet: {
+       type: FlakBulletType
+       damage: 15
+       speed: 2.4
+       collidesGround: true
+       frontColor: fc8e6d
+       backColor: f25555
+       lifetime: 100
+       status: blasted
+       fragBullets: 25
+       fragBullet: {
+            type: BasicBulletType
+            speed: 4
+            frontColor: f25555
+            backColor: a14553
+            damage: 15
+            lifetime: 10
+            
+       }
+       }
+       }
+]

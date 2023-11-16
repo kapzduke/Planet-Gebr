@@ -1,0 +1,70 @@
+localizedName: "Хербер++"
+type: payload
+flying: true
+health: 1200
+armor: 7
+hitSize: 9
+
+controller: BuilderAI
+isEnemy: false
+mineWalls: true
+mineFloor: true
+buildSpeed: 20.5
+itemCapacity: 1000
+
+speed: 20
+accel: 0.9
+drag: 0.4
+mineSpeed: 7.5
+mineTier: 99
+rotateSpeed: 10
+
+crashDamageMultiplier: 1000000
+hittable: false
+targetable: false
+fogRadius: 0
+coreUnitDock: false
+outlineColor: 2d2f39
+
+payloadCapacity: 10000
+pickupUnits: true
+vulnerableWithPayloads: true
+
+weapons: [
+    {
+        type: RepairBeamWeapon
+		widthSinMag: 0.11
+        x: 0
+        y: 4
+        mirror: false
+        shootY: 0
+		beamWidth: 5.7
+        repairSpeed: 20
+        fractionRepairSpeed: 0.6
+        shootCone: 150
+		
+        targetUnits: false
+        targetBuildings: true
+        autoTarget: false
+        controllable: true
+        laserColor: ffd37f
+        healColor: ffd37f
+		bullet: {
+		    maxRange: 500
+		}
+    }
+]
+engines: [
+    {
+        x: 4.5
+        y: -4
+        radius: 2
+        rotation: 315
+    }
+    {
+        x: -4.5
+        y: -4
+        radius: 2
+        rotation: 225
+    }
+]
