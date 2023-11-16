@@ -1,0 +1,20 @@
+{
+  "name": "Деревянный бур",
+  "localizedName": "Деревянный бур",
+  "description": "Просто работает"
+  "type": "Drill",
+  "health": 340,
+  "size": 2,
+  "tier": 2,
+  "drillTime": 200,
+  "requirements": [
+    Дерево/30
+  ],
+  "category": "production",
+  "research": {
+    "parent": "Деревянный конвеер"
+    "requirements": [
+        Дерево/300
+ ]
+}
+}

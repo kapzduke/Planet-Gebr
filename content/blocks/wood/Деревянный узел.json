@@ -1,0 +1,23 @@
+{
+  "laserRange": 12,
+  "maxNodes": 3,
+  "category": "power",
+  "name": "Деревянный узел",
+  "localizedName": "Деревянный узел",
+  "description": "Очень плохой узел, но можно пользоваться!",
+  "health": 10,
+  "size": 1,
+  "itemCapacity": 10,
+
+  "requirements": [
+    "Дерево/7"
+]
+
+"research": {
+    "parent": "Деревянное ядро"
+    "requirements": [
+        "Дерево/170"
+ ]
+}
+  "type": "PowerNode"
+}

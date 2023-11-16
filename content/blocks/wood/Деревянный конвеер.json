@@ -1,0 +1,22 @@
+{
+  "name": "Деревянный конвеер",
+  "localizedName": "Деревянный конвеер",
+  "description": "Простой, но медленный конвеер",
+  "category": "distribution",
+  "destroyEffect": "doorclose",
+  "speed": 0.06,
+  "displayedSpeed": 0.6,
+  "health": 1,
+  "acceptsItems": true,
+  "type": "Conveyor"
+  "requirements": [
+    "Дерево/1"
+]
+
+"research": {
+    "parent": "Деревянное ядро"
+    "requirements": [
+        "Дерево/30"
+ ]
+}
+}

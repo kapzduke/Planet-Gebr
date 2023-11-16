@@ -1,0 +1,58 @@
+{
+  "name": "Деревянная турель",
+  "localizedName": "Деревянная турель",
+  "description": "Не очень хорошая турель, но если её зарядить железом пойдёт.",
+  "ammoTypes":{
+    "Дерево":{
+      "damage": 35,
+      "buildingDamageMultiplier": 0.9,
+      "hitColor": "a30400be",
+      "hitEffect": "coreBurn",
+      "shootEffect": "blastsmoke",
+      "range": 230,
+      "speed": 4,
+      "type": "BasicBulletType"
+    },
+    "Железо":{
+      "damage": 70,
+      "chargeEffect": "explosion",
+      "inaccuracy": 0.3,
+      "lightning": 3,
+      "speed": 4,
+      "range": 170,
+      "lightningColor": "9a00ffae",
+      "type": "LightningBulletType"
+    }
+  },
+   "requirements": [
+    "Дерево/145"
+]
+
+   "research": {
+      "parent": "Деревянное ядро"
+        "requirements": [
+           "Дерево/1450"
+   ]
+  },
+
+"consumes": {
+    "liquid": {
+      "liquid": "Кибернетический раствор",
+      "amount": 0.05,
+      "optional": true,
+      "booster": true,
+      "update": true
+    }
+  },
+
+  "reload": 20,
+  "range": 170,
+  "shootEffect": "casing1",
+  "category": "turret",
+  "health": 1370,
+  "size": 2,
+  "itemCapacity": 15,
+  "hasLiquids": true,
+  "lightLiquid": "Кибернетический раствор",
+  "type": "ItemTurret"
+}
