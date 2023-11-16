@@ -1,0 +1,13 @@
+type: Floor
+localizedName: "Кибернетический раствор"
+variants: 1
+
+isLiquid: true
+liquidDrop: Кибернетический раствор
+
+status: Испарение
+statusDuration: 300
+speedMultiplier: 0.7
+drownTime: 180
+
+cacheLayer: water
