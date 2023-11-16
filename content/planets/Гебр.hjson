@@ -1,0 +1,75 @@
+generator: SerpuloPlanetGenerator
+localizedName: "Гебр"
+parent: S15780Wqt317
+iconColor: 439df1ff
+orbitRadius: 7
+hasAtmosphere: true
+updateLighting: false
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+atmosphereColor: 2ac7ffff
+drawOrbit: true
+
+accessible: true
+alwaysUnlocked: true
+defaultCore: "Деревянное ядро"
+sectorSeed: 0
+startSector: 3
+sectorSize: 1
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+	
+cloudMesh: {
+    type: HexSkyMesh
+    planet: Гебр
+    seed: 1
+    speed: 7
+    radius: 0.15
+    divisions: 2
+    color: 439df1ff
+    octaves: 0
+    persistence: 1
+    scl: 2
+    thresh: 0.1
+}
+	
+mesh: {
+    type: NoiseMesh
+    planet: Гебр
+    seed: 562697
+    color1: 439df1ff
+    color2: 2ac7ffff
+    divisions: 5
+    radius: 0.9
+    octaves: 7
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
+	
+hiddenItems: [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "titanium"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "spore-pod"
+    "sand"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+]
