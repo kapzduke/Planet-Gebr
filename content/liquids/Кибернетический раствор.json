@@ -1,0 +1,13 @@
+{
+  "name": "Кибернетический раствор",
+  "description": "Используется на фабриках и для ускорения пушек",
+  "color": "3200ceff",
+  "flammability": 0.01,
+  "viscosity": 0.4,
+  "explosiveness": 0,
+  "lightColor": "0093e57a",
+  "heatCapacity": 0.5,
+  "temperature": 0.7,
+  "particleEffect": "lava",
+  "coolant": true
+}
