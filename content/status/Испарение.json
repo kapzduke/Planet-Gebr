@@ -1,0 +1,7 @@
+{
+  "name": "Испарение",
+  "description": "Ты начинаешь испаряться!",
+  "damage": 0.3,
+  "speedMultiplier": 0.3,
+  "buildSpeedMultiplier": 0.7
+}
