@@ -1,0 +1,20 @@
+type: ItemBridge
+category: distribution
+size: 1
+health: 480
+range: 5
+transportTime: 0.12
+hasPower: false
+name: Железный мостовой конвеер
+localizedName: Железный мостовой конвеер
+
+requirements: [
+    "Железо/8"
+]
+
+research: {
+    parent: "Железный маршрутизатор"
+    requirements: [
+        "Железо/1200"
+    ]
+}  

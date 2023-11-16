@@ -1,0 +1,19 @@
+type: Junction
+category: distribution
+size: 1
+health: 230
+name: Железный перекрёсток
+
+speed: 0.12
+capacity: 12
+
+requirements: [
+    "Железо/4"
+]
+
+research: {
+    parent: "Железный конвеер"
+    requirements: [
+        "Железо/400"
+    ]
+}

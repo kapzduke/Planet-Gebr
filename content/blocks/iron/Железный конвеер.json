@@ -1,0 +1,22 @@
+{
+  "name": "Железный конвеер",
+  "localizedName": "Железный конвеер",
+  "description": "Нормальный, довольно быстрый конвеер",
+  "category": "distribution",
+  "destroyEffect": "doorclose",
+  "speed": 0.12,
+  "displayedSpeed": 1.2,
+  "health": 120,
+  "acceptsItems": true,
+  "type": "Conveyor"
+  "requirements": [
+    "Железо/1"
+]
+
+"research": {
+    "parent": "Деревянный конвеер"
+    "requirements": [
+        "Железо/30"
+ ]
+}
+}

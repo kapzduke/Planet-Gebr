@@ -1,0 +1,23 @@
+type: Battery
+localizedName: Железная батарейка
+category: power
+size: 1
+health: 120
+
+conductivePower: true
+consumes: {
+  powerBuffered: 600
+}
+
+requirements: [
+    "Дерево/10"
+    "Железо/30"
+]
+
+research: {
+    parent: "Деревянный узел"
+    requirements: [
+        "Дерево/120"
+        "Железо/340"   
+    ]
+}

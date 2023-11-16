@@ -1,0 +1,20 @@
+{
+  "name": "Железный бур",
+  "localizedName": "Железный бур",
+  "description": "Хороший бур, может бурить алмазы"
+  "type": "Drill",
+  "health": 680,
+  "size": 2,
+  "tier": 3,
+  "drillTime": 170,
+  "requirements": [
+    Железо/30
+  ],
+  "category": "production",
+  "research": {
+    "parent": "Железный конвеер"
+    "requirements": [
+        Железо/300
+ ]
+}
+}

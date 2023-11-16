@@ -1,0 +1,21 @@
+{
+  "name": "Железный маршрутизатор",
+  "health": 340,
+  "size": 1,
+  "itemCapacity": 3,
+  "research": "Железный перекрёсток",
+  "requirements": [
+    {
+      "item": "Железо",
+      "amount": 3
+    }
+  ],
+  "category": "distribution",
+  "researchCost": [
+    {
+      "item": "Железо",
+      "amount": 370
+    }
+  ],
+  "type": "Router"
+}
