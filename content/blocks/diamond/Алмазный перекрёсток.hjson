@@ -1,0 +1,19 @@
+type: Junction
+category: distribution
+size: 1
+health: 460
+name: Алмазный перекрёсток
+
+speed: 0.23
+capacity: 24
+
+requirements: [
+    "Алмаз/8"
+]
+
+research: {
+    parent: "Алмазный конвеер"      
+       requirements: [
+        "Алмаз/1800"
+    ]
+}

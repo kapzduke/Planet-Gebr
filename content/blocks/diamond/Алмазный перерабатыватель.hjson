@@ -1,0 +1,45 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 780
+itemCapacity: 140
+name: "Алмазный перерабатыватель"
+
+
+craftTime: 2720
+consumes: {
+    power: 1.2
+    items: [
+        "Алмаз/70"
+	       	"Радон/15"
+        "Железо/40"
+	]
+}
+outputItem: "Гипер сплав/1"
+
+requirements: [
+    "Алмаз/30"
+    "Железо/15"
+]
+
+research: {
+    parent: "Деревянное ядро"
+    requirements: [
+        "Алмаз/70"
+    ]
+	objectives: [
+	    "Алмазный конвеер"
+	]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]

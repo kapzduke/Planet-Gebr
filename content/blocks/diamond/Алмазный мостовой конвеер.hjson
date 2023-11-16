@@ -1,0 +1,23 @@
+type: ItemBridge
+category: distribution
+size: 1
+health: 940
+range: 10
+transportTime: 0.23
+hasPower: false
+name: Алмазный мостовой конвеер
+localizedName: Алмазный мостовой конвеер
+
+requirements: [
+    "Алмаз/16"
+]
+
+research: {
+    parent: "Железный маршрутизатор"
+    requirements: [
+        "Алмаз/3400"
+    ]
+objectives: [
+	    "Железный мостовой конвеер"
+	]
+}  

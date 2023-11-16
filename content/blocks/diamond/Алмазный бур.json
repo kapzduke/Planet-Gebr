@@ -1,0 +1,25 @@
+{
+  "name": "Алмазный бур",
+  "localizedName": "Алмазный бур",
+  "description": "Один из самых лучших буров, который может бурить радон!"
+  "type": "Drill",
+  "health": 1980,
+  "size": 3,
+  "tier": 4,
+  "drillTime": 140,
+  "consumes": {
+    "power": 0.6 
+  },
+  "requirements": [
+    Алмаз/170
+    Железо/60
+  ],
+  "category": "production",
+  "research": {
+    "parent": "Алмазный конвеер"
+    "requirements": [
+        Алмаз/1700
+        Железо/600
+ ]
+}
+}

@@ -1,0 +1,90 @@
+name: "Алмазная турель"
+localizedName: "Алмазная турель"
+requirements: [
+Алмаз/65
+Железо/35
+Дерево/45
+]
+research: {
+    parent: "Деревянная турель"
+    requirements: [
+        Алмаз/2700
+        Железо/450
+        Дерево/690
+]
+}
+objectives: [
+        {
+            type: "OnSector",
+            preset: "Алмазная жила"
+        }
+    ]
+type: ItemTurret
+range: 468
+shootEffect: {
+        type: Particle Effect
+        particles: 25
+        lifetime: 35
+        sizeFrom: 15
+        colorFrom: 00ffff
+        sizeTo: 0
+}
+health: 280
+category: turret
+reload: 160
+"ammoTypes": {
+    "Алмаз": {
+                    type: BasicBulletType
+                    lifetime: 234
+                    speed: 2
+                    lightning: 15
+                    lightningColor: 00cdd4
+                    lightningLengthRand: 4.56
+                    lightningLength: 10
+                    lightningDamage: 15
+                    sprite: large-orb
+                    hitEffect: none
+                    despawnEffect: none
+                    despawnSound: spark
+                    frontColor: 00ffff
+                    damage: 35
+                    backColor: 00cdd4
+                    bulletInterval: 3.2
+                    intervalBullet: {
+                        type: LightningBulletType
+                        lightningLength: 10
+                        lightningLengthRand: 4.56
+                        lightningDamage: 25
+                        lightningColor: 00cdd4
+                       }
+                   }
+                   
+   "Гипер сплав": {
+               type: BasicBulletType
+                    range: 1890
+                    lifetime: 276
+                    speed: 5
+                    lightning: 70
+                    lightningColor: ff8d00ae
+                    lightningLengthRand: 7.56
+                    lightningLength: 100
+                    lightningDamage: 150
+                    sprite: large-orb
+                    hitEffect: none
+                    despawnEffect: none
+                    despawnSound: spark
+                    frontColor: d40000ae
+                    damage: 1000
+                    backColor: ff8d00ae
+                    bulletInterval: 4.2
+                    intervalBullet: {
+                        type: LightningBulletType
+                        lightning: 40
+                        lightningLength: 140
+                        lightningLengthRand: 7
+                        lightningDamage: 50
+                        lightningColor: ff8d00a
+                       }
+                   }
+}
+shootSound: shockBlast

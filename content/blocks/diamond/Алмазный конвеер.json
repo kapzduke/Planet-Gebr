@@ -1,0 +1,28 @@
+{
+  "name": "Алмазный конвеер",
+  "localizedName": "Алмазный конвеер",
+  "description": "Очень быстрый конвеер!",
+  "category": "distribution",
+  "destroyEffect": "doorclose",
+  "speed": 0.23,
+  "displayedSpeed": 2.3,
+  "health": 470,
+  "acceptsItems": true,
+  "type": "Conveyor"
+  "requirements": [
+    "Алмаз/4"
+]
+
+"research": {
+    "parent": "Железный конвеер"
+    "requirements": [
+        "Алмаз/1200"
+ ]
+}
+"objectives": [
+        {
+            "type": "CompletedSector",
+            "preset": "Алмазная жила"
+        }
+    ]
+}
