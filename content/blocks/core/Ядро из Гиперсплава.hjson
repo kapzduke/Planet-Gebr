@@ -1,0 +1,15 @@
+type: CoreBlock
+localizedName: "Ядро из Гиперсплава"
+category: effect
+health: 12000
+size: 3
+
+itemCapacity: 10000
+unitCapModifier: 10
+unitType: "Хербер++"
+incinerateNonBuildable: true
+isFirstTier: true
+squareSprite: false
+
+alwaysUnlocked: false
+hidden: true
