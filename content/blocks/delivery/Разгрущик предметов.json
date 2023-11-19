@@ -1,0 +1,32 @@
+{
+    "type": "UnitCargoUnloadPoint",
+    "name": "Разгрущик предметов",
+    "description": "Здесь грущик выгружает выбранные вами предметы",
+
+    "size": 2,
+    "health": 150,
+
+    "itemCapacity": 100,
+    "liquidCapacity": 0,
+    "separateItemCapacity": true,
+    "requirements": 
+    [
+		"Железо/100",
+		"Алмаз/50"
+	],
+    "category": "distribution",
+
+    "hasItems": true,
+    "hasLiquids": flase,
+    "outputsLiquid": flase,
+    "outputItems": true,
+    "buildTime": 200,
+
+    research: {
+  parent: Грущик предметов
+  requirements: [
+    Железо/3700
+    Алмаз/1700
+  ]
+}
+}

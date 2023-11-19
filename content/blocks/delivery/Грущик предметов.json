@@ -1,0 +1,41 @@
+{
+    "type": "UnitCargoLoader",
+    "name": "Грущик предметов",
+    "description": "Создаёт дронов переносящих предметы",
+
+    "size": 3,
+    "health": 1200,
+
+    "unitType": "Грущик",
+    "itemCapacity": 100,
+    "liquidCapacity": 20,
+    "separateItemCapacity": true,
+    "requirements": 
+    [
+		"Дерево/200",
+		"Железо/200",
+		"Алмаз/160",
+	        "Радон/50"
+	],
+    "category": "distribution",
+
+    "buildTime": 300,
+
+    "hasItems": true,
+    "hasPower": true,
+    "hasLiquids": true,
+    "consumes":
+    {
+        "power": 2,
+        "liquid": "Кибернетический раствор/0.2"
+  }
+    research: {
+  parent: Деревянное ядро
+  requirements: [
+    Дерево/700
+    Алмаз/300
+    Железо/600
+    Радон/300
+  ]
+}
+}
