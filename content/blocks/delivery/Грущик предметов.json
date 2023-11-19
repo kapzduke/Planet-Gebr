@@ -7,7 +7,7 @@
     "health": 1200,
 
     "unitType": "Грущик",
-    "itemCapacity": 100,
+    "itemCapacity": 150,
     "liquidCapacity": 20,
     "separateItemCapacity": true,
     "requirements": 

@@ -6,7 +6,7 @@
     "size": 2,
     "health": 150,
 
-    "itemCapacity": 100,
+    "itemCapacity": 400,
     "liquidCapacity": 0,
     "separateItemCapacity": true,
     "requirements": 
