@@ -1,8 +1,8 @@
 {
   "name": "Радон",
-  "explosiveness": 0.04,
+  "explosiveness": 0.35,
   "flammability": 0,
-  "radioactivity": 0.6,
+  "radioactivity": 1.2,
   "color": "1fff00ff",
   "cost": 1.6,
   "hiddenOnPlanets": [
