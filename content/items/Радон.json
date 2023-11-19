@@ -1,14 +1,15 @@
 {
   "name": "Радон",
-  "explosiveness": 0.35,
+  "description": "Используется в строительстве и в создании Гипер сплава",
+  "explosiveness": 0.2,
   "flammability": 0,
-  "radioactivity": 1.2,
-  "color": "1fff00ff",
-  "cost": 1.6,
+  "radioactivity": 1,
+  "color": "f9a3c7",
+  "cost": 1.2,
   "hiddenOnPlanets": [
     "serpulo",
     "erekir"
   ],
   "hardness": 4,
-  "healthScaling": 0.9
+  "healthScaling": 0.2
 }
