@@ -2,9 +2,9 @@
 	"name": "Сверхприводной проектор",
  "description": "Ускоряет объекты находящиеся рядом с ним",
 	"type": "OverdriveProjector",
-	"health": 460,
+	"health": 760,
 	"size": 2,
-	"range": 340,
+	"range": 110,
     "consumes": { 
         "power": 2,
         "items": {
