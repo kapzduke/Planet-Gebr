@@ -1,0 +1,5 @@
+type: MessageBlock
+name: "Радоновое сообщение"
+category: logic
+requirements: [ "Радон/5", "Железо/5"]
+research: "Радоновый переключатель"

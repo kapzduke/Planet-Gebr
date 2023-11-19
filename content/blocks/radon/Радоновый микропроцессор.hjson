@@ -1,0 +1,6 @@
+type: LogicBlock
+name: "Радоновый микропроцессор"
+requirements: [ "Радон/90", "Железо/50", "Алмаз/50"]
+instructionsPerTick: 2
+category: logic
+research: "Деревянное ядро"

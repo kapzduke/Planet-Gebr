@@ -1,0 +1,7 @@
+type: LogicDisplay
+name: "Радоновый дисплей"
+size: 3
+requirements: [ "Радон/150", "Алмаз/50"]
+displaySize: 80
+category: logic
+research: "Радоновое сообщение"

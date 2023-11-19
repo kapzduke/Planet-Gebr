@@ -1,0 +1,5 @@
+name: "Радоновый переключатель"
+type: SwitchBlock
+requirements: [ "Радон/5", "Железо/5"]
+category: logic
+research: "Радоновый микропроцессор"
