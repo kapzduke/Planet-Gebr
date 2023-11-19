@@ -1,0 +1,27 @@
+{
+	"name": "Сверхприводной проектор",
+ "description": "Ускоряет объекты находящиеся рядом с ним",
+	"type": "OverdriveProjector",
+	"health": 460,
+	"size": 2,
+	"range": 30,
+    "consumes": { 
+        "power": 2,
+        "items": {
+			"items": [ {"item": "Радон", "amount": 1} ],
+			"booster": true,
+			"optional": true
+        } 
+    },
+    "speedBoost": 2.4,
+    "speedBoostPhase": 0.6,
+    "phaseRangeBoost": 15,
+	"requirements": [
+		{ "item": "Алмаз", "amount": 50 },
+		{ "item": "Железо", "amount": 50 },
+        { "item": "Радон", "amount": 25 }
+        { "item": "Гипер сплав", "amount": 1 }
+	],
+	"category": "effect",
+	"research": "Деревянное ядро"
+}
