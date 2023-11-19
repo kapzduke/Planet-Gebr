@@ -1,0 +1,19 @@
+{
+  "name": "Конвеер из Гиперсплава",
+  "localizedName": "Конвеер из Гиперсплава",
+  "description": "Лучший из конвееров!",
+  "category": "distribution",
+  "destroyEffect": "doorclose",
+  "speed": 0.34,
+  "displayedSpeed": 3.4,
+  "health": 680,
+  "acceptsItems": true,
+  "requirements": [
+    {
+      "item": "Гипер сплав",
+      "amount": 1
+    }
+  ],
+  "research": "Алмазный конвеер",
+  "type": "Conveyor"
+}
