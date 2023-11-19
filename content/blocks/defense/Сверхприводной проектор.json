@@ -4,7 +4,7 @@
 	"type": "OverdriveProjector",
 	"health": 460,
 	"size": 2,
-	"range": 100,
+	"range": 100000,
     "consumes": { 
         "power": 2,
         "items": {
@@ -15,7 +15,7 @@
     },
     "speedBoost": 2.4,
     "speedBoostPhase": 0.6,
-    "phaseRangeBoost": 15,
+    "phaseRangeBoost": 20,
 	"requirements": [
 		{ "item": "Алмаз", "amount": 50 },
 		{ "item": "Железо", "amount": 50 },
