@@ -1,0 +1,6 @@
+type: MemoryBlock
+memoryCapacity: 64
+name: "Радоновая ячейка памяти"
+requirements: [ "Радон/30", "Железо/30", "Алмаз/30"]
+category: logic
+research: "Радоновое сообщение"

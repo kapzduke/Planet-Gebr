@@ -1,0 +1,14 @@
+type: LogicBlock
+size: 2
+name: "Радоновый логический процессор"
+requirements: [ "Радон/320", "Железо/60", "Алмаз/80", "Дерево/50", "Гипер сплав/3"]
+range: 176
+instructionsPerTick: 8
+category: logic
+consumes: {
+    liquid: {
+        liquid: Кибернетический раствор,
+        amount: 0.04
+    }
+}
+research: "Радоновый переключатель"
