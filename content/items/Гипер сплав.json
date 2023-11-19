@@ -1,5 +1,5 @@
 {
-  "name": "Гипер сплав",
+  "name": "[#FF8C00] Гипер сплав",
   "description": "Создан из всех предметов в игре!",
   "explosiveness": 0.2,
   "flammability": 0.4,
@@ -12,5 +12,5 @@
     "serpulo",
     "erekir"
   ],
-  "color": "6d665dff"
+  "color": "FF4500"
 }
