@@ -1,0 +1,23 @@
+{
+  "laserRange": 70,
+  "maxNodes": 2,
+  "category": "power",
+  "name": "Башня из Гиперсплава",
+  "localizedName": "Башня из Гиперсплава",
+  "description": "Башня для больших расстояний!",
+  "health": 3400,
+  "size": 2,
+  "itemCapacity": 20,
+
+  "requirements": [
+    "Гипер сплав/15"
+]
+
+"research": {
+    "parent": "Деревянный узел"
+    "requirements": [
+        "Гипер сплав/1000"
+ ]
+}
+  "type": "PowerNode"
+}
