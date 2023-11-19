@@ -23,7 +23,7 @@
 //}
 //]
 	"itemCapacity": 150,
-	"speed": 3,
+	"speed": 5,
 	"rotateSpeed": 8,
 	"rotateShooting": false,
 	"accel": 0.1,
