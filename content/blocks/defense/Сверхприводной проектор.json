@@ -4,7 +4,7 @@
 	"type": "OverdriveProjector",
 	"health": 460,
 	"size": 2,
-	"range": 30,
+	"range": 100,
     "consumes": { 
         "power": 2,
         "items": {
