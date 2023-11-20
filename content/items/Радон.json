@@ -4,7 +4,7 @@
   "explosiveness": 0.2,
   "flammability": 0,
   "radioactivity": 1,
-  "color": "f9a3c7",
+  "color": "1fff00ff",
   "cost": 1.2,
   "hiddenOnPlanets": [
     "serpulo",
