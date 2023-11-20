@@ -12,4 +12,7 @@
   ],
   "hardness": 4,
   "healthScaling": 0.2
+  "research": {
+    "parent": "Алмаз"
+}
 }

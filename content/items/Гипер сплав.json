@@ -13,4 +13,7 @@
     "erekir"
   ],
   "color": "FF4500"
+  "research": {
+    "parent": "Радон"
+}
 }

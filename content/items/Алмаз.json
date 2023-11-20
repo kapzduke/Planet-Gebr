@@ -10,4 +10,7 @@
     "erekir"
   ],
   "hardness": 3
+  "research": {
+    "parent": "Железо"
+}
 }
