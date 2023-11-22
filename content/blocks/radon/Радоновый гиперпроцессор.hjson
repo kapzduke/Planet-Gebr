@@ -8,7 +8,7 @@ category: logic
 consumes: {
     liquids: [
         {
-            liquid: Кибирнетический раствор,
+            liquid: Кибернетический раствор,
             amount: 0.12
         },
     ]
