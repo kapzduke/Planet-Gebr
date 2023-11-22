@@ -1,0 +1,45 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 1780
+itemCapacity: 40
+name: "Создатель батареек"
+
+
+craftTime: 120
+consumes: {
+    power: 1.2
+    items: [
+        "Радон/20"
+        "Железо/15"
+	]
+}
+outputItem: "Батарея/1"
+
+requirements: [
+    "Алмаз/30"
+    "Железо/15"
+]
+
+research: {
+    parent: "Алмазный переробатыватель"
+    requirements: [
+        "Радон/700"
+        "Железо/600"
+    ]
+	objectives: [
+	    "Алмаз"
+	]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]
