@@ -1,6 +1,6 @@
 type: GenericCrafter
 category: crafting
-size: 2
+size: 3
 health: 1780
 itemCapacity: 40
 name: "Создатель батареек"
@@ -19,17 +19,15 @@ outputItem: "Батарея/1"
 requirements: [
     "Алмаз/30"
     "Железо/15"
+    "Радон/40"
 ]
 
 research: {
-    parent: "Алмазный переробатыватель"
+    parent: "Алмазный перерабатыватель"
     requirements: [
         "Радон/700"
         "Железо/600"
     ]
-	objectives: [
-	    "Алмаз"
-	]
 }
 drawer: [
 	{
