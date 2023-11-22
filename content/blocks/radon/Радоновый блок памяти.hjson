@@ -1,0 +1,7 @@
+type: MemoryBlock
+size: 2
+name: "Радоновый блок памяти"
+requirements: [ "Железо/30", "Радон/80", "Алмаз/80", "Гипер сплав/10"]
+memoryCapacity: 512
+category: logic
+research: "Радоновая ячейка памяти"

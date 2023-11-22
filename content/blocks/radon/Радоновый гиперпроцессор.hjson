@@ -1,0 +1,19 @@
+type: LogicBlock
+size: 3
+name: "Радоновый гиперпроцессор"
+requirements: [ "Радон/450", "Железо/75", "Алмаз/150", "Гипер сплав/40"]
+range: 336
+instructionsPerTick: 25
+category: logic
+consumes: {
+    liquids: [
+        {
+            liquid: Кибирнетический раствор,
+            amount: 0.12
+        },
+    ]
+      items: [
+         "Батарея/1"
+]
+}
+research: "Радоновый логический процессор"

@@ -1,0 +1,7 @@
+type: LogicDisplay
+size: 6
+name: "Большой радоновый дисплей"
+requirements: [ "Радон/300", "Гипер сплав/15", "Алмаз/150"]
+displaySize: 176
+category: logic
+research: "Радоновый дисплей"
