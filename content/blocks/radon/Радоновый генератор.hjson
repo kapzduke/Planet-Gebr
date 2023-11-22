@@ -1,0 +1,45 @@
+localizedName: Радоновый генератор
+type: ConsumeGenerator
+category: power
+size: 3
+health: 4700
+
+hasPower: true
+powerProduction: 5
+itemDuration: 230
+squareSprite: false
+
+consumes: {
+    items: [
+		"Радон/1"
+	]
+}
+
+generateEffect: {
+	x: 0
+	y: 0
+	particles: 1
+    length: 0
+    lifetime: 60
+	type: ParticleEffect
+	sizeFrom: 0
+    sizeTo: 5
+	colorFrom: 6F6E80
+    colorTo: 9898A4
+}
+effectChance: 0.001
+
+requirements: [
+    "Радон/200"
+    "Железо/600"
+    "Алмаз/400"
+]
+
+research: {
+    parent: "Железная печка"
+    requirements: [
+        "Радон/5000"
+        "Железо/12000"
+        "Алмаз/7000"
+    ]
+}
