@@ -84,27 +84,5 @@
 			
 		}
 		},
-		    {
-			    "name": "lightning"
-			    "x": 0,
-			    "y": 0,
-			    "reload": 80
-			    "shootSound": "spark",
-			    "inaccuracy": 360,
-			    "shoot": {
-			    "shots": 3,
-			    "shotDelay": 0
-		    }
-			    "shootCone": 360,
-			    "ignoreRotation": true,
-			    "shootOnDeath": true,
-			    "bullet": {
-			    "type": "lightningBulletType",
-			    "damage": 30,
-			    "lightningColor": "FF6666FF",
-			    "lightningLength": 20,
-			    "lightningLengthRand": 2
-		    }
-		    }
 	]
 }
