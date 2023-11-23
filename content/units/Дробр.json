@@ -1,0 +1,110 @@
+{
+        "localizedName": "Дробр",
+	"description": "Наземный юнит, который стреляет довольно сильными лазерами",
+        "speed": 2.32,
+        "accel": 0.07,
+        "drag": 0.06,
+		"outlineColor": "28292EFF",
+        "flying": false,
+        "health": 570,
+        "armor": 4,
+	"range": 120,
+		"TargetAir": true,
+        "commandLimit": 10,
+        "circleTarget": true,
+	"destructableWreck": false,
+	    "weapons": [
+   {
+    "name": "lasers",
+    "shootCone": 15,
+    "mirror": true,
+	"alternate": true,
+		"shake": 1,
+    "top": false,
+	"rotate": false,
+    "y": 0,
+	"x": 5,
+    "reload": 30,
+    "shootSound": "laser",
+	"ejectEffect": "none",
+	"smokeEffect": "none",
+    "recoil": 2.5,
+     "bullet": {
+    "type": "laserBulletType",
+      "damage": 60,
+      "sideAngle": 35,
+      "sideWidth": 1.5,
+      "sideLength": 15,
+      "width": 12,
+      "colors":["DD4444FF", "FF6666FF", "FFFFFFFF"],
+      "length": 86
+	"shootEffect":  {
+	     "type": "MultiEffect"
+	     "effects": [
+	     {
+	    		"type": "ParticleEffect"	
+                        "sizeFrom": 2,
+		"line": true,
+		"sizeTo": 1,
+        		"lifetime": 8,
+		"colorFrom": "FF6666FF",
+		"colorTo": "FF6666FF",
+			},
+		{
+	    		"type": "ParticleEffect"	
+                        "sizeFrom": 2,
+		"sizeTo": 1,
+		"length": 6,
+		"interp": "circleOut",
+		"sizeInterp": "swingIn",
+        		"lifetime": 13,
+		"colorFrom": "FF6666FF",
+		"colorTo": "FF666600"
+			}
+		    ]
+		    },
+	"hitEffect": {
+	    		"type": "ParticleEffect"	
+                        "sizeFrom": 2,
+		"line": true,
+		"sizeTo": 1,
+        		"lifetime": 8,
+		"colorFrom": "FF6666FF",
+		"colorTo": "FF6666FF",
+			},
+    "despawnEffect": {
+	    		"type": "ParticleEffect"	
+                        "sizeFrom": 2,
+	    "line": true,
+		"sizeTo": 1,
+        		"lifetime": 8,
+		"colorFrom": "FF6666FF",
+		"colorTo": "FF6666FF",
+			}
+			
+		}
+		},
+		    {
+			    "name": "lightning"
+			    "x": 0,
+			    "y": 0,
+			    "reload": 80
+			    "shootSound": "spark",
+			    "inaccuracy": 360,
+			    "shoot": {
+			    "shots": 3,
+			    "shotDelay": 0
+		    }
+			    "shootCone": 360,
+			    "ignoreRotation": true,
+			    "shootOnDeath": true,
+			    "bullet": {
+			    "type": "lightningBulletType",
+			    "damage": 30,
+			    "lightningColor": "FF6666FF",
+			    "lightningLength": 20,
+			    "lightningLengthRand": 2
+		    }
+		    }
+	]
+}
