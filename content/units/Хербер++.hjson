@@ -3,7 +3,7 @@ type: payload
 flying: true
 health: 1200
 armor: 7
-hitSize: 9
+hitSize: 8.5
 
 controller: BuilderAI
 isEnemy: false
@@ -12,7 +12,7 @@ mineFloor: true
 buildSpeed: 20.5
 itemCapacity: 1000
 
-speed: 20
+speed: 10
 accel: 0.9
 drag: 0.4
 mineSpeed: 7.5
