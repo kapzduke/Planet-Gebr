@@ -1,0 +1,17 @@
+{
+  "localizedName": "Брокский перевал",
+  "description": "Тут есть вода! И враги... (команда красная)",
+  "difficulty": 6,
+  "alwaysUnlocked": true,
+  "addStartingItems": true,
+  "startWaveTimeMultiplier": 3,
+  "useAI": "false",
+  "showSectorLandInfo": true,
+  "planet": "Гебр",
+  "name": "Брокский перевал",
+  "sector": 5,
+  "core": "Деревянное ядро",
+  "research": {
+    "parent": "Два острова"
+}
+}
