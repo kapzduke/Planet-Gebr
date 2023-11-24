@@ -1,0 +1,11 @@
+type: Floor
+localizedName: "Небесная жидкость"
+variants: 1
+
+isLiquid: true
+liquidDrop: Небесная жидкость
+
+speedMultiplier: 0.85
+drownTime: 150
+
+cacheLayer: water
