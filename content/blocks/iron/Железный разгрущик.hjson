@@ -1,0 +1,23 @@
+type: Unloader
+name: Железный разгрущик
+localizedName: Железный разгрущик
+health: 230
+itemCapacity: 0
+requirements: [
+  Железо/80
+  Алмаз/40
+] 
+category: effect
+research: {
+    parent: Железный маршрутизатор
+    objectives: [
+        {
+            type: SectorComplete
+            preset: Два острова
+        }
+    ]
+}
+researchCost: [
+    Железо/12000
+    Алмаз/8000
+  ]
