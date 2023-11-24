@@ -1,5 +1,6 @@
 {
   "localizedName": "Алмазная жила",
+  "description": "Тут есть алмазы!",
   "captureWave": 20,
   "difficulty": 2,
   "alwaysUnlocked": true,
