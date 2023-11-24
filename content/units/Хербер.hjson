@@ -1,21 +1,21 @@
 localizedName: "Хербер"
 type: payload
 flying: true
-health: 120
-armor: 1
-hitSize: 9
+health: 210
+armor: 2
+hitSize: 8.4
 
 controller: BuilderAI
 isEnemy: false
 mineWalls: true
 mineFloor: true
 buildSpeed: 1.0
-itemCapacity: 10
+itemCapacity: 20
 
 speed: 3.4
 accel: 0.4
 drag: 0.1
-mineSpeed: 3.5
+mineSpeed: 2.35
 mineTier: 1
 rotateSpeed: 7
 
