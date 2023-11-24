@@ -6,7 +6,7 @@
   "addStartingItems": true,
   "startWaveTimeMultiplier": 3,
   "useAI": "false",
-  "showSectorLandInfo": false,
+  "showSectorLandInfo": true,
   "planet": "Гебр",
   "name": "Алмазная жила",
   "sector": 8,
