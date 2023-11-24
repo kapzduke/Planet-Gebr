@@ -6,7 +6,7 @@
   "addStartingItems": true,
   "startWaveTimeMultiplier": 6,
   "useAI": "false",
-  "showSectorLandInfo": false,
+  "showSectorLandInfo": true,
   "planet": "Гебр",
   "name": "Два острова",
   "sector": 12,
