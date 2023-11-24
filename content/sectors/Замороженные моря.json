@@ -6,7 +6,7 @@
   "addStartingItems": true,
   "startWaveTimeMultiplier": 3,
   "useAI": "false",
-  "showSectorLandInfo": false,
+  "showSectorLandInfo": true,
   "planet": "Гебр",
   "name": "Замороженные моря",
   "sector": 3,
