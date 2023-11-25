@@ -21,8 +21,22 @@ clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
 	
+cloudMesh: {
+  type: HexSkyMesh
+  planet: Гебр
+  seed: 2
+  speed: 3
+  radius: 0.05
+  divisions: 5
+  color: ff4800
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+}
+
 mesh: {
-    type: NoiseMesh
+    type: SunMesh
     planet: Гебр
     seed: 562697
     color1: 439df1ff
