@@ -1,0 +1,36 @@
+{
+  "launchPad": {
+    "name": "Алмазная пусковая площадка",
+    "localizedName": "Алмазная пусковая площадка",
+    "description": "Запускает предметы с одного сектора на другой"
+    "requirements": [
+      {
+        "category": "effect",
+        "buildVisibility": "campaignOnly",
+        "items": [
+          {
+            "name": "Алмаз",
+            "amount": 350
+          },
+          {
+            "name": "Железо",
+            "amount": 140
+          },
+          {
+            "name": "Радон",
+            "amount": 200
+          },
+          {
+            "name": "Гипер сплав",
+            "amount": 150
+          }
+        ]
+      }
+    ],
+    "size": 3,
+    "itemCapacity": 200,
+    "launchTime": 1200,
+    "hasPower": true,
+    "powerConsumption": 4
+  }
+}
