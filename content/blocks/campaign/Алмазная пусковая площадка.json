@@ -3,7 +3,6 @@
   "localizedName": "Алмазная пусковая площадка",
   "description": "Запускает предметы с одного сектора на другой",
   "category": "effect",
-  "buildVisibility": "campaignOnly",
   "research": {
     "parent": "Железный разгрущик",
     "requirements": [
