@@ -7,7 +7,7 @@ hasAtmosphere: true,
 updateLighting: false,
 atmosphereRadIn: 0.1,
 atmosphereRadOut: 0.3,
-atmosphereColor: ff4800,
+atmosphereColor: 0090ff,
 drawOrbit: true,
 
 accessible: true
@@ -28,7 +28,7 @@ cloudMesh: {
   speed: 3
   radius: 0.05
   divisions: 5
-  color: ff4800
+  color: 57b3fa
   octaves: 2
   persistence: 1
   scl: 2
