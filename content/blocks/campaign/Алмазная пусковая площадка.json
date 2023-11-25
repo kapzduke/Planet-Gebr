@@ -1,30 +1,27 @@
 {
-    "name": "Алмазная пусковая площадка",
-    "localizedName": "Алмазная пусковая площадка",
-    "description": "Запускает предметы с одного сектора на другой",
-    "category": "effect",
-    "buildVisibility": "campaignOnly",
-    "research": {
-    "parent": "Железный разгрущик"
+  "name": "Алмазная пусковая площадка",
+  "localizedName": "Алмазная пусковая площадка",
+  "description": "Запускает предметы с одного сектора на другой",
+  "category": "effect",
+  "buildVisibility": "campaignOnly",
+  "research": {
+    "parent": "Железный разгрущик",
     "requirements": [
-        "Алмаз/3500",
-        "Железо/1400",
-        "Радон/2000",
-        "Гипер сплав/1500"
-      ]
-    } 
-    "requirements": [
-          "Алмаз/350",
-          "Железо/140",
-          "Радон/200",
-          "Гипер сплав/150"
-        ]
-      }
-    ],
-    "size": 3,
-    "itemCapacity": 200,
-    "launchTime": 1200,
-    "hasPower": true,
-    "powerConsumption": 4
-  }
+      "Алмаз/3500",
+      "Железо/1400",
+      "Радон/2000",
+      "Гипер сплав/1500"
+    ]
+  },
+  "requirements": [
+    "Алмаз/350",
+    "Железо/140",
+    "Радон/200",
+    "Гипер сплав/150"
+  ],
+  "size": 3,
+  "itemCapacity": 200,
+  "launchTime": 1200,
+  "hasPower": true,
+  "powerConsumption": 4
 }
