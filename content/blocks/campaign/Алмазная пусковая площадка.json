@@ -22,7 +22,5 @@
   ],
   "size": 3,
   "itemCapacity": 200,
-  "launchTime": 1200,
-  "hasPower": true,
-  "powerConsumption": 4
+  "launchTime": 1200
 }
