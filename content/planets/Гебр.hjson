@@ -36,7 +36,7 @@ cloudMesh: {
 }
 
 mesh: {
-    type: SunMesh
+    type: NoiseMesh
     planet: Гебр
     seed: 562697
     color1: 439df1ff
