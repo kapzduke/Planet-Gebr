@@ -10,4 +10,7 @@
   "temperature": 0.7,
   "particleEffect": "lava",
   "coolant": true
+  "research": {
+  "parent": "Деревянное ядро"
+  }
 }
