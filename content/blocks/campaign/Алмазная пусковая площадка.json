@@ -1,8 +1,9 @@
 {
-  "launchPad": {
     "name": "Алмазная пусковая площадка",
     "localizedName": "Алмазная пусковая площадка",
     "description": "Запускает предметы с одного сектора на другой",
+    "category": "effect",
+    "buildVisibility": "campaignOnly",
     "research": {
     "parent": "Железный разгрущик"
     "requirements": [
@@ -13,10 +14,6 @@
       ]
     } 
     "requirements": [
-      {
-        "category": "effect",
-        "buildVisibility": "campaignOnly",
-        "items": [
           "Алмаз/350",
           "Железо/140",
           "Радон/200",
