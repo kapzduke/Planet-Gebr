@@ -3,6 +3,7 @@
   "localizedName": "Алмазная пусковая площадка",
   "description": "Запускает предметы с одного сектора на другой",
   "health": 7000,
+  "type": "launchPad",
   "category": "effect",
   "research": {
     "parent": "Железный разгрущик",
