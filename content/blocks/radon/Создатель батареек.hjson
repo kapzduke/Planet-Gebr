@@ -29,15 +29,3 @@ research: {
         "Железо/600"
     ]
 }
-drawer: [
-	{
-        type: DrawRegion
-        suffix: "-bottom"
-    }
-	{
-		type: DrawArcSmelt
-	}
-	{
-        type: DrawDefault
-    }
-]
