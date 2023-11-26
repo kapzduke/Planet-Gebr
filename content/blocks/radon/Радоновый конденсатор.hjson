@@ -3,6 +3,7 @@ category: crafting
 size: 2
 health: 870
 itemCapacity: 300
+liquidCapacity: 120
 name: "Радоновый конденсатор"
 
 
