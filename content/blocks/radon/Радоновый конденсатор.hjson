@@ -2,7 +2,7 @@ type: GenericCrafter
 category: crafting
 size: 2
 health: 870
-itemCapacity: 60
+itemCapacity: 300
 name: "Радоновый конденсатор"
 
 
