@@ -25,7 +25,7 @@
       "shrinkY": 0.1,
       "shrinkX": 0.1,
       "speed": 10,
-      "trailColor": "5aff70",
+      "trailColor": "15bc00",
       "trailLength": 10,
       "trailWidth": 10,
       "lifetime": 32,
@@ -35,7 +35,7 @@
       "homingPower": 0.2,
       "homingRange": 10,
       "frontColor": "ffffff",
-      "backColor": "5aff70"
+      "backColor": "19d800"
     },
   },
   "requirements": [
