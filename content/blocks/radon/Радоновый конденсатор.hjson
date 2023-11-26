@@ -62,5 +62,9 @@ research: {
         rotateSpeed: 1
         spinSprite: true
   }
+        {
+        type: DrawRegion
+        suffix: -top
+        }
         ]
         }
