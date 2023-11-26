@@ -1,0 +1,62 @@
+{
+  "type": "ItemTurret",
+  "name": "Радоновая турель",
+  "outlineIcon": false,
+  "size": 3,
+  "targetAir": true,
+  "targetGround": true,
+  "inaccuracy": 15,
+  "recoil": 2,
+  "reload": 3,
+  "health": 3200,
+  "shootY": 6,
+  "range": 320,
+  "rotateSpeed": 4,
+  "shootSound": "sap",
+  "consumes": {
+    "power": 6,
+  },
+  "hasPower": true,
+  "ammoTypes": {
+    "RAD3.0": {
+      "type": "BasicBulletType",
+      "sprite": "gebr-Фазовый полумесяц",
+      "absorbable": true,
+      "shrinkY": 0.1,
+      "shrinkX": 0.1,
+      "speed": 10,
+      "trailColor": "5aff70",
+      "trailLength": 10,
+      "trailWidth": 10,
+      "lifetime": 32,
+      "damage": 30,
+      "height": 13,
+      "width": 16,
+      "homingPower": 0.2,
+      "homingRange": 10,
+      "frontColor": "ffffff",
+      "backColor": "5aff70"
+    },
+  },
+  "requirements": [
+    "Радон/200",
+    "RAD3.0/250",
+    "Гипер сплав/10"
+ ]
+  "category": "turret",
+  "research": {
+    "parent": "Алмазная турель"
+    "requirements": [
+        "Радон/2000"
+        "RAD3.0/2500"
+        "Гипер сплав/100"
+    ]
+	"objectives": [
+            {
+            type: "SectorComplete",
+            preset: "Ледяной залив"
+        }
+	     "Радоновый конденсатор"
+	]
+}
+}
