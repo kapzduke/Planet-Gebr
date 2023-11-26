@@ -1,0 +1,63 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 870
+itemCapacity: 60
+name: "Радоновый конденсатор"
+
+
+craftTime: 350
+consumes: {
+    power: 1.3
+    items: [
+	       	"Радон/30"
+	]
+    liquid: "Кибернетический раствор/0.2"
+}
+outputItem: "RAD3.0/1"
+
+requirements: [
+    "Алмаз/300"
+    "Железо/150"
+    "Радон/400"
+]
+
+research: {
+    parent: "Алмазный перерабатыватель"
+    requirements: [
+        "Алмаз/3000"
+        "Радон/4600"
+        "Железо/1500"
+    ]
+	objectives: [
+            {
+            type: "SectorComplete",
+            preset: "Ледяной залив"
+        }
+	    "Создатель батареек"
+	]
+}
+	drawer: {
+	type: DrawMulti
+        drawers: [
+                 {
+        type: DrawRegion
+        suffix: -bottom
+        }
+                        {
+        type: DrawLiquidTile
+        suffix: -liquid
+        drawLiquid: Кибернетический раствор
+        }
+                  {
+        type: DrawGlowRegion
+        suffix: -glow
+        }
+                {
+        type: DrawRegion
+        suffix: -rotator
+        rotateSpeed: 1
+        spinSprite: true
+  }
+        ]
+        }
