@@ -5,7 +5,7 @@ health: 470
 reload: 3
 rotateSpeed: 4.1
 inaccuracy: 1.3
-name: Кибернетическая турель
+name: "Кибернетическая турель"
 shoot: {
   spread: 25
   shots: 5
@@ -35,16 +35,16 @@ ammoTypes: {
 }
 category: turret
 requirements: [
-    Алмаз/40
-    Железо/30
-    Радон/30
+    "Алмаз/40"
+    "Железо/30"
+    "Радон/30"
 ]
 research: {
-    parent: Алмазная турель
+    parent: "Алмазная турель"
         requirements: [
-           Алмаз/1800
-           Железо/1000
-           Радон/800
+           "Алмаз/1800"
+           "Железо/1000"
+           "Радон/800"
   ]
     objectives: [
         {
