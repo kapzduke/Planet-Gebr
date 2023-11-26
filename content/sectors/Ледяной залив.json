@@ -1,0 +1,16 @@
+{
+  "localizedName": "Ледяной залив",
+  "description": "Самый первый сектор на астероиде Кропр",
+  "difficulty": 3,
+  "alwaysUnlocked": true,
+  "addStartingItems": true,
+  "startWaveTimeMultiplier": 3,
+  "useAI": "false",
+  "showSectorLandInfo": true,
+  "planet": "Кропр",
+  "name": "Ледяной залив",
+  "sector": 1,
+  "research": {
+    "parent": "Деревянное ядро"
+}
+}
