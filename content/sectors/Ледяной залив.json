@@ -1,7 +1,7 @@
 {
   "localizedName": "Ледяной залив",
   "description": "Самый первый сектор на астероиде Кропр",
-  "difficulty": 3,
+  "difficulty": 6,
   "alwaysUnlocked": true,
   "addStartingItems": true,
   "startWaveTimeMultiplier": 3,
