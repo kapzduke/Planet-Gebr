@@ -14,7 +14,7 @@ velocityRnd: 0.4
 range: 240
 shootY: 4
 ammoTypes: {
-  Кибернетический раствор: {
+  "Кибернетический раствор": {
     type: LiquidBulletType
     orbSize: 1.8
     damage: 7
@@ -23,7 +23,7 @@ ammoTypes: {
     liquid: Кибернетический раствор
     knockback: 0.08
   }
-  Небесная жидкость: {
+  "Небесная жидкость": {
     type: LiquidBulletType
     orbSize: 2.5
     damage: 10
