@@ -1,0 +1,17 @@
+{
+  "name": "RAD3.0",
+  "description": "Создаётся из радона, используется в одной из пушек. Сильный радиактивный сплав!",
+  "explosiveness": 0.5,
+  "flammability": 0,
+  "radioactivity": 30,
+  "color": "58d415",
+  "cost": 5,
+  "hiddenOnPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "healthScaling": 0.4
+  "research": {
+    "parent": "Радон"
+}
+}
