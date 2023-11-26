@@ -49,6 +49,9 @@ research: {
         suffix: -liquid
         drawLiquid: Кибернетический раствор
         }
+          {
+        type: DrawDefault
+        }
                   {
         type: DrawGlowRegion
         suffix: -glow
