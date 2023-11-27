@@ -1,0 +1,31 @@
+type: PointDefenseTurret
+size: 2
+reload: 15
+health: 800
+bulletDamage: 40
+range: 200
+name: Защитник
+description: Защищает от выстрелов пушек и юнитов.
+consumes: {
+  power: 2.5
+}
+requirements: [
+  Алмаз/120
+  Железо/80
+  RAD3.0/60
+]
+category: turret
+research: {
+    parent: Кибернетическая турель
+    objectives: [
+        {
+            type: OnSector
+            preset: Ледяной залив
+        }
+    ]
+}
+researchCost: [
+    Алмаз/1200
+    Железо/800
+    RAD3.0/600
+  ]
