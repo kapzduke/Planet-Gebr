@@ -1,0 +1,16 @@
+{
+  "localizedName": "Ураганный остров",
+  "difficulty": 10,
+  "alwaysUnlocked": true,
+  "addStartingItems": true,
+  "startWaveTimeMultiplier": 3,
+  "useAI": "false",
+  "showSectorLandInfo": true,
+  "planet": "Гебр",
+  "name": "Ураганный остров",
+  "sector": 17,
+  "loadout": "Железное ядро",
+  "research": {
+    "parent": "Брокский перевал"
+}
+}
