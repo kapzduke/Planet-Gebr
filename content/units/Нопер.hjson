@@ -1,0 +1,46 @@
+type: flying
+flying: true
+speed: 2
+rotateSpeed: 2
+drag: 0.025
+armor: 3
+faceTarget: false
+lowAltitude: false
+engineOffset: 7
+engineSize: 3
+hitSize: 7
+targetAir: false
+health: 3600
+name: "Нопер"
+localizedName: "Нопер"
+description: "Этот юнит стреляет зелёным снарядом, взрывающимся о землю"
+
+weapons: [{
+name: bomb
+x: 0
+y: -2
+reload: 60
+alternate: true
+shootCone: 180
+ejectEffect: none
+minShootVelocity: 0.15f
+velocityRnd: 1
+inaccuracy: 15
+ignoreRotation: true
+bullet: {
+sprite: bbunit-bquadbomb
+type: BombBulletType
+despawnEffect: greenBomb
+damage: 130
+healPercent: 6
+splashDamage: 130
+splashDamageRadius: 50
+width: 7
+height: 10
+spin: 2
+lifetime: 60
+}
+shootSound: plasmadrop
+hitSound: plasmaboom
+hitEffect: massiveExplosion
+}]
