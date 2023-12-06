@@ -28,7 +28,7 @@ velocityRnd: 1
 inaccuracy: 15
 ignoreRotation: true
 bullet: {
-sprite: bbunit-bquadbomb
+sprite: bomb
 type: BombBulletType
 despawnEffect: greenBomb
 damage: 130
