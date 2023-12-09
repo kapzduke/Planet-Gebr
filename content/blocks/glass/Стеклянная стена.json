@@ -13,7 +13,7 @@
     "parent": "Деревянное ядро"
     "objectives": [
         {
-            "type": "SectorCompleted",
+            "type": "SectorComplete",
             "preset": "Брокский перевал"
         }
     ]
