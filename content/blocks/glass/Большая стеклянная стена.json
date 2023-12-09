@@ -13,7 +13,7 @@
     "parent": "Стеклянная стена"
     "objectives": [
         {
-            "type": "SectorCompleted",
+            "type": "SectorComplete",
             "preset": "Брокский перевал"
         }
     ]
