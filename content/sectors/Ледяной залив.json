@@ -1,15 +1,15 @@
 {
   "localizedName": "Ледяной залив",
-  "description": "Самый первый сектор на астероиде Кропр",
+  "description": "Астероид Кропр столкнулся с планетой Гебр и его жители переселились на эту планету, они создали лагерь",
   "difficulty": 6,
   "alwaysUnlocked": true,
   "addStartingItems": true,
   "startWaveTimeMultiplier": 3,
   "useAI": "false",
   "showSectorLandInfo": true,
-  "planet": "Кропр",
+  "planet": "Гебр",
   "name": "Ледяной залив",
-  "sector": 1,
+  "sector": 29,
   "research": {
     "parent": "Деревянное ядро"
 }
