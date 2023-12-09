@@ -1,0 +1,15 @@
+type: OverflowGate
+name: Железный избыточный шлюз
+description: Выводит предметы вперёд, только если боковые пути заблокированы
+health: 80
+invert: true
+requirements: [
+  Железо/5
+] 
+category: distribution
+research: {
+    parent: Железный избыточный затвор
+}
+researchCost: [
+    Железо/100
+  ]

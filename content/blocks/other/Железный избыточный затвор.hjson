@@ -1,0 +1,14 @@
+type: OverflowGate
+name: Железный избыточный затвор
+description: Выводит предметы по бокам, только если передний путь заблокирован
+health: 80
+requirements: [
+  Железо/5
+] 
+category: distribution
+research: {
+    parent: Железный сортировщик
+},
+researchCost: [
+    Железо/100
+  ]
