@@ -1,0 +1,17 @@
+{
+  "name": "Стекло",
+  "description": "Сделано из обычного песка, из них можно сделать бесполезные стены =/",
+  "explosiveness": 0,
+  "flammability": 0,
+  "radioactivity": 0,
+  "color": "d2f3ff",
+  "cost": 2,
+  "hiddenOnPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "hardness": 1
+  "research": {
+    "parent": "Деревянное ядро"
+}
+}
