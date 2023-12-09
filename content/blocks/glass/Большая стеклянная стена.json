@@ -1,0 +1,24 @@
+{
+"name": "Большая стеклянная стена",
+"type": "Wall",
+"category": "defense",
+"size": 2,
+"health": 20,
+
+"requirements": [
+    "Стекло/20"
+]
+
+"research": {
+    "parent": "Стеклянная стена"
+    "objectives": [
+        {
+            "type": "SectorCompleted",
+            "preset": "Брокский перевал"
+        }
+    ]
+    "requirements": [
+        "Стекло/200"
+    ]
+  }
+}
