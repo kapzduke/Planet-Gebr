@@ -1,0 +1,49 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 1870
+itemCapacity: 200
+name: "Печь для плавки стекла"
+
+
+craftTime: 30
+consumes: {
+    power: 0.5
+    items: [
+	       	"sand/10"
+	]
+}
+outputItem: "Стекло/1"
+
+requirements: [
+    "Алмаз/300"
+    "Железо/150"
+    "RAD3.0/1"
+]
+
+research: {
+    parent: "Создатель батареек"
+    requirements: [
+        "Алмаз/3000"
+        "Железо/1500"
+        "RAD3.0/100"
+    ]
+	objectives: [
+            {
+            type: "SectorComplete",
+            preset: "Брокский перевал"
+        }
+	]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]
