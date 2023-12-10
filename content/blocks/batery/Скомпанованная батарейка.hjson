@@ -11,14 +11,14 @@ consumes: {
 
 requirements: [
     "Батарея/20"
-    "Железо/5"
+    "Стекло/5"
 ]
 
 research: {
     parent: "Железная батарейка"
     requirements: [
         "Батарея/400"
-        "Железо/60"  
+        "Стекло/60"  
     ]
     objectives: [
           {
