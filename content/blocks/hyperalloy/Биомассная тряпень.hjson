@@ -1,0 +1,60 @@
+type: GenericCrafter
+category: crafting
+size: 4
+health: 13560
+itemCapacity: 100
+liquidCapacity: 400
+name: "[#B52DFF]Биомассная тряпень"
+
+
+craftTime: 10000
+consumes: {
+    power: 3
+    items: [
+	       	"Дерево/5"
+        "Железо/7"
+        "Алмаз/9"
+        "Радон/12"
+        "Стекло/3"
+        "Батарея/4"
+        "RAD3.0/6"
+        "Гипер сплав/8"
+	]
+    liquid: "Кибернетический раствор/7"
+}
+outputItem: "Неприятная биомасса/1"
+
+requirements: [
+    "Алмаз/3000"
+    "Железо/1500"
+    "Гипер сплав/200"
+]
+
+research: {
+    parent: "Печь для плавки стекла"
+    requirements: [
+        "Алмаз/3000"
+        "Железо/1500"
+        "Гипер сплав/100"
+    ]
+	objectives: [
+            {
+            type: "OnSector",
+            preset: "Ураганный остров"
+        }
+	]
+}
+drawer: [
+{
+        type: DrawLiquidTile
+        suffix: -liquid
+        drawLiquid: Кибернетический раствор
+        }
+                 {
+        type: DrawGlowRegion
+        suffix: -glow
+        }
+	{
+        type: DrawDefault
+    }
+]
