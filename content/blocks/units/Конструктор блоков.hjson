@@ -1,0 +1,31 @@
+  "type": "Constructor",
+  "name": "Конструктор блоков",
+  "health": 650,
+  "size": 3,
+  "hasItems": true,
+  "craftEffect": "none",
+  "hasPower": true,
+  "updateEffect": "none",
+  minBlockSize: 1
+  maxBlockSize: 2
+  "consumes": {
+  "power": 4.70
+  }
+  "requirements": [
+    Радон/25
+    Стекло/15
+  ],
+  "category": "units"
+research: {
+    parent: Реконструктор таргов
+    objectives: [
+        {
+            type: OnSector
+            preset: Ледяной залив
+        }
+    ]
+}
+researchCost: [
+    Радон/250
+    Стекло/150
+  ]

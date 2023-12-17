@@ -1,0 +1,41 @@
+type: Reconstructor
+size: 3
+health: 1200
+constructTime: 1500
+liquidCapacity: 60
+name: Реконструктор таргов
+consumes: {
+  power: 2
+    items: {
+      items: [
+        Алмаз/60
+        Радон/30
+      ]
+    }
+  liquid: {
+    liquid: Кибернетический раствор
+    amount: 0.6
+  }
+}
+upgrades: [
+  [Тарг, Глазор]
+]
+requirements: [
+  Алмаз/120
+  Радон/60
+]
+category: units
+research: {
+    parent: "Создатель таргов",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Брокский перевал"
+        }
+    ]
+},
+researchCost: [
+    Алмаз/500
+    Железо/300
+    Радон/150
+  ]
