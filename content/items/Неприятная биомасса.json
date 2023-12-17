@@ -1,0 +1,17 @@
+{
+  "name": "[#B52DFF]Неприятная биомасса",
+  "description": "Эта биомасса создана путём расплавления [#FF2020] всех предметов[#FFFFFF] и добавления [#3200CEFF] Кибернетической жидкости",
+  "explosiveness": 0,
+  "flammability": 3.5,
+  "radioactivity": 0.2,
+  "charge": 0.01,
+  "cost": 7,
+  "hiddenOnPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "color": "B52DFF"
+  "research": {
+    "parent": "Гипер сплав"
+}
+}
