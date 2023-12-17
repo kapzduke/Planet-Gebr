@@ -1,0 +1,27 @@
+type: Battery
+localizedName: Большая скомпанованная батарейка
+category: power
+size: 3
+health: 5600
+
+conductivePower: true
+consumes: {
+  powerBuffered: 56000
+}
+
+requirements: [
+    "Батарея/180"
+    "Стекло/45"
+]
+
+research: {
+    parent: "Скомпанованная батарейка"
+    requirements: [
+        "Батарея/3600"
+        "Стекло/540"  
+    ]
+    objectives: [
+          Стеклянная стена
+          Большая стеклянная стена
+    ]
+}
