@@ -1,0 +1,29 @@
+Type: UnitAssemblerModule
+name: Модуль усиления
+health: 775
+size: 3
+consumes: {
+power: 5
+}
+category: units
+research: {
+    parent: "Усилитель юнитов",
+    requirements: [
+     Радон/4000
+     Железо/3000
+     Алмаз/5000
+     Неприятная биомасса/100
+]
+    objectives: [
+        {
+            type: "SectorCompleted",
+            preset: "Ураганный остров"
+        }
+    ]
+},
+requirements: [
+  Радон/500
+  Железо/500
+  Алмаз/300
+  Неприятная биомасса/10
+]
