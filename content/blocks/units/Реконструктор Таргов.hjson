@@ -3,7 +3,7 @@ size: 3
 health: 1200
 constructTime: 1500
 liquidCapacity: 60
-name: Реконструктор таргов
+name: Реконструктор Таргов
 consumes: {
   power: 2
     items: {
@@ -26,7 +26,7 @@ requirements: [
 ]
 category: units
 research: {
-    parent: "Создатель таргов",
+    parent: "Создатель Таргов",
     objectives: [
         {
             type: "OnSector",
