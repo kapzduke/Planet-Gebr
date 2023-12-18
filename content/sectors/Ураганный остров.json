@@ -1,5 +1,6 @@
 {
   "localizedName": "Ураганный остров",
+  "captureWave": 70,
   "description": "Остров в котором 70 волн! Очень сложно пройти"
   "difficulty": 10,
   "alwaysUnlocked": true,
